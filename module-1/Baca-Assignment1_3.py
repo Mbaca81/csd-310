@@ -14,7 +14,7 @@ def countdown(bottles_remaining):
     # Handle the final bottle (singular) separately
     if bottles_remaining == 1:
         print("1 bottle of beer on the wall, 1 bottle of beer.")
-        print("Take one down, pass it around, zero bottles of beer on the wall!\n")
+        print("Take one down, pass it around, 0 bottles of beer on the wall!\n")
 
 def main():
     """Main program: get user input and call the countdown function."""
