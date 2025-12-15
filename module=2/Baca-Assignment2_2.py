@@ -7,11 +7,13 @@ def number_analysis():
     print("Please enter 20 numbers:")
 
     # Collect the 20 numbers from the user
+    import pdb
+    pdb.set_trace()
     for i in range(20):
         while True:
             try:
                 number = float(input(f"Enter number {i + 1}: "))
-                numbers.append(number)
+                numbers.apend(number)
                 break
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
