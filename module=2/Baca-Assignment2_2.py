@@ -13,7 +13,7 @@ def number_analysis():
         while True:
             try:
                 number = float(input(f"Enter number {i + 1}: "))
-                numbers.apend(number)
+                numbers.append(number)
                 break
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
